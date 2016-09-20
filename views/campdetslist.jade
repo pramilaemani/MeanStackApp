@@ -1,0 +1,33 @@
+extends layout
+
+block content	
+
+	// Wrapper
+	#wrapper
+
+		// Campaign Details Table
+		h2 Campaign Details Table
+		#CampDetslist
+			table
+				thead
+					th CAMPAIGN_TYPE_NO
+					th CAMPAIGN_ID
+					th CAMPAIGN_NAME
+					th VIN_ID
+					th RESTRICTED_CAMPAIGN					
+				tbody
+					each campdet, i in CampDetslist
+						tr
+							td
+								a(href="http://localhost:3000/getcampdets/getcampdetslist?campid="+campdet.CAMPAIGN_ID)= campdet.CAMPAIGN_ID
+							td
+								a(href="http://localhost:3000/getcampdets/getcampdetslist?campid="+campdet.CAMPAIGN_ID)= campdet.CAMPAIGN_NAME	
+							td
+								a(href="http://localhost:3000/getcampdets/getcampdetslist?campid="+campdet.CAMPAIGN_ID)= campdet.VIN_ID
+							td
+								a(href="http://localhost:3000/getcampdets/getcampdetslist?campid="+campdet.CAMPAIGN_ID)= campdet.CAMPAIGN_TYPE_NO
+							td
+								a(href="http://localhost:3000/getcampdets/getcampdetslist?campid="+campdet.CAMPAIGN_ID)= campdet.RESTRICTED_CAMPAIGN
+		// Campaign Details Table
+
+	// /WRAPPER

@@ -1,0 +1,20 @@
+This list shows how much time each plugin has taken to respond to each event:
+
+on_activated:
+    Default.pane: 0.187s total, mean: 0.002s, max: 0.151s
+
+on_close:
+    Default.pane: 0.000s total, mean: 0.000s, max: 0.000s
+
+on_deactivated:
+    Default.history_list: 0.193s total, mean: 0.003s, max: 0.084s
+
+on_load:
+    Default.detect_indentation: 0.530s total, mean: 0.066s, max: 0.507s
+
+on_pre_close:
+    Default.history_list: 0.000s total, mean: 0.000s, max: 0.000s
+
+on_pre_save:
+    Default.trim_trailing_white_space: 0.027s total, mean: 0.001s, max: 0.023s
+

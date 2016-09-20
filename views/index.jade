@@ -1,0 +1,73 @@
+extends layout
+
+block content
+	h1  VIN CAMP APPLICATION 
+	
+
+	// Wrapper
+	#wrapper
+
+	form#formGetVinDetails(name="getcampdets",method="get",action="/getcampdets/getcampdetslist")
+		input#inputVinId(type="text", placeholder="vinid", name="vinid")
+		
+		button#btnSubmit(type="submit") Get Camp Details    
+
+		
+
+		
+
+	// /WRAPPER
+
+	// Wrapper
+	#wrapper
+     
+	form#formGetCampDetails(name="getvindets",method="get",action="/getvindets/getvindetslist")
+		input#inputCampId(type="text", placeholder="campid", name="campid")
+		
+		button#btnSubmit(type="submit") Get Vin Details    
+
+		
+
+		
+
+	// /WRAPPER
+
+	// Wrapper
+	#wrapper
+
+		// VinDetails LIST
+		h2 VIN Details
+		#vindetslist
+			table
+				thead
+					th VinId					
+				tbody
+					each vindet, i in vindetslist
+						tr
+							td
+								a(href="http://localhost:3000/getvindets/getvindetslist?vinid="+vindet.VIN_ID)= vindet.VIN_ID
+							
+		// /VinDetails LIST
+
+	// /WRAPPER
+
+	// Wrapper
+	#Campwrapper 
+
+		// CampDetails LIST
+		h2 CAMP Details
+		#CampDetslist
+			table
+				thead
+					th CampId
+				tbody
+					each campdet, j in campdetslist
+						tr
+							td    
+								a(href="http://localhost:3000/getcampdets/getcampdetslist?campid="+campdet.CAMPAIGN_ID)= campdet.CAMPAIGN_ID
+
+		// /CampDetails LIST
+
+	// /WRAPPER
+
+

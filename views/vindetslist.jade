@@ -1,0 +1,32 @@
+extends layout
+
+block content	
+
+	// Wrapper
+	#wrapper
+
+		// Vin Details Table
+		h2 Vin Details Table
+		#vindetslist
+			table
+				thead
+					th VIN_ID
+					th CAMPAIGN_ID
+					th MODEL_ID
+					th VIN_CAMPAIGN_STATUS
+					
+				tbody
+					each vindet, i in vindetslist
+						tr
+							td
+								a(href="http://localhost:3000/getcampdets/getcampdetslist?campid="+vindet.VIN_ID)= vindet.VIN_ID
+							td
+								a(href="http://localhost:3000/getcampdets/getcampdetslist?campid="+vindet.VIN_ID)= vindet.CAMPAIGN_ID	
+							td
+								a(href="http://localhost:3000/getcampdets/getcampdetslist?campid="+vindet.VIN_ID)= vindet.MODEL_ID
+							td
+								a(href="http://localhost:3000/getcampdets/getcampdetslist?campid="+vindet.VIN_ID)= vindet.VIN_CAMPAIGN_STATUS
+
+		// Vin Details Table
+
+	// /WRAPPER
