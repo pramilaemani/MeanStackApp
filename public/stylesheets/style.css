@@ -97,9 +97,10 @@ a {
 				padding:5px 10px;
 				text-align:center;
 			}
+
 #Campwrapper
 {
-	    margin: -207px -18px -41px 236px;
+	    margin: -370px -18px -41px 236px;
     clear: both;
 }
 #vindetslist {
@@ -113,7 +114,7 @@ a {
 		#vindetslist table th {
 			background:#EEE;
 			font-weight:600;
-			padding:10px 20px;
+			padding:10px 40px;
 			text-align:center;
 		}
 		#vindetslist table tbody {
