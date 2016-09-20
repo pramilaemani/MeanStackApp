@@ -26,10 +26,16 @@ router.get('/getvindetslist', function(req, res) {
     var campid = req.query.campid;
     logger.trace ("Entered VinId is "+campid);
     collection.find({'CAMPAIGN_ID':campid},function(e,docs){
-        res.render('vindetslist', {
+        
+        if (e!=null){
+           logger.trace(e) ;
+        }else{
+            res.render('vindetslist', {
             "vindetslist" : docs
         
     });
+        };
+        
 });
 
 });

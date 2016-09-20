@@ -26,10 +26,16 @@ router.get('/getcampdetslist', function(req, res) {
     var vinid = req.query.vinid;
     logger.trace ("Entered VinId is "+vinid);
     collection.find({'VIN_ID':vinid},function(e,docs){
-      //  res.json(docs); handle error
-        res.render('CampDetslist', {
+      //  res.json(docs);
+      if (e!=null){
+          logger.trace(e);
+      }else{
+          res.render('CampDetslist', {
             "CampDetslist" : docs        
     });
+      };
+      
+        
 });
 
 });
