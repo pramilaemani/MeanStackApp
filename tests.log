@@ -1,0 +1,40 @@
+[2016-09-19 15:39:38.779] [TRACE] tests - Testcase 1: ServerStartup......
+[2016-09-19 15:39:38.792] [TRACE] tests - Testcase 2: GET /getvindets
+[2016-09-19 15:39:38.795] [TRACE] tests - Testcase 3: GET /getcampdets
+[2016-09-19 15:39:38.796] [TRACE] tests - Testcase 4: Connection to the mongodb
+[2016-09-19 15:39:38.799] [TRACE] tests - Testcase 5: Fetching all records from VinDetails
+[2016-09-19 15:39:38.800] [TRACE] tests - Testcase 6: Fetching all vin details for the given VIN_ID
+[2016-09-19 15:39:38.802] [TRACE] tests - Testcase 7: fetches all Campaign Details for the given CAMPAIGN_ID
+[2016-09-19 15:41:38.875] [TRACE] tests - Testcase 1: ServerStartup......
+[2016-09-19 15:41:38.887] [TRACE] tests - Testcase 2: GET /getvindets
+[2016-09-19 15:41:38.890] [TRACE] tests - Testcase 3: GET /getcampdets
+[2016-09-19 15:41:38.891] [TRACE] tests - Testcase 4: Connection to the mongodb
+[2016-09-19 15:41:38.894] [TRACE] tests - Testcase 5: Fetching all records from VinDetails
+[2016-09-19 15:41:38.895] [TRACE] tests - Testcase 6: Fetching all vin details for the given VIN_ID
+[2016-09-19 15:41:38.898] [TRACE] tests - Testcase 7: fetches all Campaign Details for the given CAMPAIGN_ID
+[2016-09-19 15:45:45.674] [TRACE] tests - Testcase 1: ServerStartup......
+[2016-09-19 15:45:45.689] [TRACE] tests - Testcase 2: GET /getvindets
+[2016-09-19 15:45:45.692] [TRACE] tests - Testcase 3: GET /getcampdets
+[2016-09-19 15:45:45.693] [TRACE] tests - Testcase 4: Connection to the mongodb
+[2016-09-19 15:45:45.697] [TRACE] tests - Testcase 5: Fetching all records from VinDetails
+[2016-09-19 15:45:45.698] [TRACE] tests - Testcase 6: Fetching all vin details for the given VIN_ID
+[2016-09-19 15:45:45.701] [TRACE] tests - Testcase 7: fetches all Campaign Details for the given CAMPAIGN_ID
+[2016-09-19 15:45:45.708] [TRACE] tests - Testcase 8: should not fetch campaigns
+[2016-09-19 15:47:50.307] [TRACE] tests - Testcase 1: ServerStartup......
+[2016-09-19 15:47:50.319] [TRACE] tests - Testcase 2: GET /getvindets
+[2016-09-19 15:47:50.322] [TRACE] tests - Testcase 3: GET /getcampdets
+[2016-09-19 15:47:50.323] [TRACE] tests - Testcase 4: Connection to the mongodb
+[2016-09-19 15:47:50.326] [TRACE] tests - Testcase 5: Fetching all records from VinDetails
+[2016-09-19 15:47:50.327] [TRACE] tests - Testcase 6: Fetching all vin details for the given VIN_ID
+[2016-09-19 15:47:50.329] [TRACE] tests - Testcase 7: fetches all Campaign Details for the given CAMPAIGN_ID
+[2016-09-19 15:47:50.336] [TRACE] tests - Testcase 8: should not fetch campaigns
+[2016-09-19 15:47:50.338] [TRACE] tests - Testcase 9: should not fetch Vin Details
+[2016-09-20 13:01:01.917] [TRACE] tests - Testcase 1: ServerStartup......
+[2016-09-20 13:01:01.942] [TRACE] tests - Testcase 2: GET /getvindets
+[2016-09-20 13:01:01.947] [TRACE] tests - Testcase 3: GET /getcampdets
+[2016-09-20 13:01:01.948] [TRACE] tests - Testcase 4: Connection to the mongodb
+[2016-09-20 13:01:01.951] [TRACE] tests - Testcase 5: Fetching all records from VinDetails
+[2016-09-20 13:01:01.952] [TRACE] tests - Testcase 6: Fetching all vin details for the given VIN_ID
+[2016-09-20 13:01:01.953] [TRACE] tests - Testcase 7: fetches all Campaign Details for the given CAMPAIGN_ID
+[2016-09-20 13:01:01.955] [TRACE] tests - Testcase 8: should not fetch campaigns
+[2016-09-20 13:01:01.955] [TRACE] tests - Testcase 9: should not fetch Vin Details
