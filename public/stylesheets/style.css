@@ -1,0 +1,132 @@
+body {
+  padding: 30px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #8dc8ee; 
+  
+}
+#inputVinId    
+
+{
+    width: 200px;
+    height: 2em;
+}
+#btnSubmit
+
+{
+width: 150px;
+height: 2.5em;
+}
+#inputCampId
+
+{
+    width: 200px;
+    height: 2em;
+}
+
+
+h2 {
+	margin:0 0 .5em 0;
+}
+
+h1
+{
+	 color: #00e;
+    font-weight: bold;
+}
+a {
+  color: 00FFFF;
+}
+
+#wrapper , #Campwrapper {
+	padding-left:20px;
+	position:relative;
+	margin-top: 12px;
+}
+
+#vcdetslist {
+	margin:0 0 30px 0;
+}
+	#vcdetslist table {
+		border-collapse:separate;
+		border-spacing:1px;
+		background:#CCC;
+	}
+		#vcdetslist table th {
+			background:#EEE;
+			font-weight:600;
+			padding:10px 20px;
+			text-align:center;
+		}
+		#vcdetslist table tbody {
+			padding:0; margin:0;
+			border-collapse:collapse;
+			border-spacing:0px;
+		}
+			#vcdetslist table td {
+				background:#FFF;
+				padding:5px 10px;
+				text-align:center;
+			}
+
+#CampDetslist {
+	margin:0 0 10px 0;
+}
+
+#formGetVinDetails
+{
+	    padding: 6px 10px 10px 0px
+}
+	#CampDetslist table {
+		border-collapse:separate;
+		border-spacing:1px;
+		background:#CCC;
+	}
+		#CampDetslist table th {
+			background:#EEE;
+			font-weight:600;
+			padding:10px 40px;
+			text-align:center;
+		}
+		#CampDetslist table tbody {
+			padding:0; margin:0;
+			border-collapse:collapse;
+			border-spacing:0px;
+		}
+			#CampDetslist table td {
+				background:#FFF;
+				padding:5px 10px;
+				text-align:center;
+			}
+#Campwrapper
+{
+	    margin: -207px -18px -41px 236px;
+    clear: both;
+}
+#vindetslist {
+	margin:0 0 30px 0;
+}
+	#vindetslist table {
+		border-collapse:separate;
+		border-spacing:1px;
+		background:#CCC;
+	}
+		#vindetslist table th {
+			background:#EEE;
+			font-weight:600;
+			padding:10px 20px;
+			text-align:center;
+		}
+		#vindetslist table tbody {
+			padding:0; margin:0;
+			border-collapse:collapse;
+			border-spacing:0px;
+		}
+			#vindetslist table td {
+				background:#FFF;
+				padding:5px 10px;
+				text-align:center;
+			}
+fieldset {
+	border:0;
+	padding:0; margin:0;
+}
